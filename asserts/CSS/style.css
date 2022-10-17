@@ -34,6 +34,7 @@ header li a{
 
 header img{
     width: 25px;
+    max-width: 100%;
 }
 
 .centralizarImg{
@@ -41,14 +42,22 @@ header img{
 }
 
 main{
-    padding: 50px;
+
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    
     
 }
 
 main div img{
     width: 600px;
     border-radius: 1.5%;
-    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+main div p{
+    margin: 5px;
 }
 
 footer{
@@ -56,4 +65,5 @@ footer{
     width: 100%;
     padding: 50px;
     text-align: center;
+    margin-top: 50px;
 }
